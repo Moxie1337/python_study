@@ -11,5 +11,9 @@ int main()
 
     std::cout << N  << c << std::endl;
 
+    #if M
+     printf("N is defined");
+    #endif
+
     return 0;
 }
